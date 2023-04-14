@@ -1,0 +1,47 @@
+body{
+    background-image: url("Bg1.jpeg");
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    font-family:'Merriweather', serif;
+    color: white;
+    padding: 2px;
+}
+h2{
+    padding: 10px;
+    text-align: center;
+}
+.BigDiv {
+    background-color: rgb(255, 255, 255, 0.9);
+    border: hidden;
+    width: 30em;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 2em;
+    border-radius: 10px;
+    padding: 5px;
+    clear: both;
+}
+form {
+    padding: 2em;
+    font-size: 1.2em;
+    margin-top: -25px;  
+}
+form label {
+    display: block;
+    margin: 0px 0px 15px 0px;
+}
+form button {
+    float: right;
+    margin-left: 5%;
+    width: 5em;
+    height: 2.5em;
+    background-color: #0091AD;
+    border: none;
+    border-radius: 5px;
+    font-family:'Merriweather', serif;
+    font-weight: bold;
+    
+}
+

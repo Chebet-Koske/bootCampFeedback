@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet"/>
+	<link rel="stylesheet" href="css/style.css" />
+    <title>Final Project 2</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"
+    ></script>
+</head>
+<body>
+	<h1>Boot Camp Feedback Form</h1>
+    <div class="BigDiv">
+		<h2>What did you like about the boot camp?</h2>
+		<hr style="height:2px;border: width 10px;margin:15px; background-color: #555">
+		<form>
+			<div onclick ="disableAll()">
+                <label> 
+                    <input type="checkbox" value="The technologies used" checker id="chk1" > 1. The technologies used
+                </label>
+                <label> 
+                    <input type="checkbox" value="The skills acquired" checker id="chk2" > 2. The skills acquired
+                </label>
+                <label> 
+                    <input type="checkbox" value="The food and drinks" checker id="chk3" > 3. The food and drinks
+                </label>
+                <label> 
+                    <input type="checkbox" value="The accommodation" checker id="chk4" > 4. The accommodation
+                </label>
+                <label> 
+                    <input type="checkbox" value="The trainers" checker id="chk5" > 5. The trainers
+                </label>
+				<label>
+					<input type="checkbox" value = "Your fellow students" checker id="chk6"> 6. Your fellow students
+				</label>
+                <label>
+				    <input type="checkbox" value = "Nothing" uncheck id="chk7">7. Nothing
+                </label>
+			</div>
+			<button type="submit">Submit
+            </button>
+        </div> 
+    <div class="BigDiv">
+        <h2> Statistical graph for Analysis</h2>
+        <hr style="height:2px;border: width 10px;margin:15px; background-color: #555">
+            <center><canvas id="graph" style="max-width: 800px;width: 100%;"></canvas></center>
+        </form>
+    </div>
+		
+	<script src="js/main.js" defer>
+    </script>
+</body>
+</html>
